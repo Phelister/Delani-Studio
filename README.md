@@ -1,4 +1,4 @@
-# IP3
+# DELANI STUDIO
 
 ## Project name
 Delani Studio
@@ -7,11 +7,8 @@ Delani Studio
 **Phelister Bogonko**
 
 
-## Brand/Logo
-![PhelisterLogo](images/logo.jpg)
-
 ## Description of project
-<p>This project aims to build a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p>
+<p>This project builds a landing page for a studio </p>
 
 
 ## Technologies
@@ -19,19 +16,20 @@ Delani Studio
 1. CSS
 1. JavaScript
 1. Visual Studio Code
-1. BootStrap.
+1. BootStrap
+1. Jquery
 <br>
 
 *<p>This is a work in progress project more technologies to be added with time.</p>*
 
 ## Project setup instructions
-* Clone the project by running : git clone https://github.com/Phelister/akan-name-analyzer.git
+* Clone the project by running : git clone https://github.com/Phelister/Delani-Studio.git
 * Use your favourite editor to open the folder (examples include: Atom, Sublime text, Visual Studio Code etc).
 * Review the code and if there are any changes you believe would assist to improve the project raise a pull request.
 
 ## Live site link
 
-View the live link at : [Name Analyzer Link](https://phelister.github.io/akan-name-analyzer/ "Name Analyzer")
+View the live link at : [Delani Studio Link](https://phelister.github.io/delani-studio/ "Delani Studio")
 
 ## Support and contact details
 {If you run into any issues or have questions,ideas and concerns feel free to reach out via email phelistereiggbo@gmail.com.
