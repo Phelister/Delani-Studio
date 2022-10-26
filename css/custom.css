@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome {
+    /* background-image:url(../assets/backgrounds/h_img.jpg) ; */
+    background: linear-gradient(#9da28a11, #a8aab103), url(../assets/backgrounds/h_img.jpg);
+    color: aliceblue;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+   
+}
