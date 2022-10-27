@@ -50,7 +50,8 @@ body {
 }
 
 #contactus {
-    background: linear-gradient(#9da28a11, #a8aab103), url(../assets/backgrounds/c_image.jpg);
+    /* background: linear-gradient(#9da28a11, #a8aab103), url(../assets/backgrounds/c_image.jpg); */
+    background: url(../assets/backgrounds/c_image.jpg);
     color: aliceblue;
     min-height: 40vh;
     background-size: cover;
@@ -58,4 +59,12 @@ body {
     background-attachment: fixed; 
     display: flex;
     align-items: center;
+}
+#name{
+    margin-right: 5%;
+
+}
+#content-box{
+    align-items: center;
+    justify-content: center;
 }
