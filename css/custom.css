@@ -89,3 +89,7 @@ input::placeholder {
 footer img{
     margin: 1%;
 }
+#submit{
+  align-items: baseline;  
+
+}
