@@ -48,3 +48,14 @@ body {
     display: flex;
     align-items: center; 
 }
+
+#contactus {
+    background: linear-gradient(#9da28a11, #a8aab103), url(../assets/backgrounds/c_image.jpg);
+    color: aliceblue;
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+}
