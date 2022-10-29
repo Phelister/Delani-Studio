@@ -11,15 +11,43 @@ $(document).ready(function (){
 
     $(".design").click(function (){
         $(".design").addClass('display-none');
-        $(".design").addClass('display-none');
         $("#designHeader").text(design);
         $("#designBody").text(designDetails);  
     });
     
     $(".designHeader").click(function (){
         $(".design").removeClass('display-none');
-        $(".designHeader").addClass('display-none');
+        $(".designHeader").text("");
 
     });
+    
+
+    $(".development").click(function (){
+        $(".development").addClass('display-none');
+        $("#developmentHeader").text(development);
+        $("#developmentBody").text(developmentDetails);  
+    });
+    
+    $(".developmentHeader").click(function (){
+        $(".development").removeClass('display-none');
+        $(".developmentHeader").text("");
+
+    });
+
+    $(".productManagement").click(function (){
+        $(".productManagement").addClass('display-none');
+        $("#productHeader").text(productManagement);
+        $("#productBody").text(productManagementDetails);  
+    });
+
+    
+    $(".productHeader").click(function (){
+        $(".productManagement").removeClass('display-none');
+        $(".productHeader").text("");
+
+    });
+    
+
+
 
 });
