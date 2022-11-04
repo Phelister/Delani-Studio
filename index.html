@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
+
     <!-- welcome section -->
     <section id="welcome" class="p-1 text-center text-sm-start">
       <div
@@ -91,34 +92,42 @@
           <div
             class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
           >
-            <img
-              class="mx-auto d-block img-fluid w-10 d-sm-block rounded"
+            <img 
+              class="design mx-auto d-block img-fluid w-10 rounded"
+              id="design"
               src="assets/services_icons/design_icon.png"
               alt="photo"
             />
-            <p>DESIGN</p>
+            <p class="design">DESIGN</p>
+            <h5 id="designHeader" class="designHeader display-none"></h5>
+            <p id="designBody" class="designHeader display-none"></p>
           </div>
 
           <div
             class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
           >
             <img
-              class="mx-auto d-block img-fluid w-10 d-sm-block rounded"
+           
+              class=" development mx-auto d-block img-fluid w-10 d-sm-block rounded"
               src="assets/services_icons/dev_icon.png"
               alt="photo"
             />
-            <p class="text-center">DEVELOPMENT</p>
+            <p class="development text-center">DEVELOPMENT</p>
+            <h5 id="developmentHeader" class="developmentHeader display-none"></h5>
+            <p id="developmentBody" class="developmentHeader display-none"></p>
           </div>
 
           <div
             class="col whatwedo1 my-5 p-1 text-center align-items-center justify-content-between"
           >
             <img
-              class="mx-auto d-block img-fluid w-10 d-sm-block rounded"
+              class="productManagement mx-auto d-block img-fluid w-10 d-sm-block rounded"
               src="assets/services_icons/product_icon.png"
               alt="photo"
             />
-            <p>PRODUCT MANAGEMENT</p>
+            <p class="productManagement ">PRODUCT MANAGEMENT</p>
+            <h5 id="productHeader" class="productHeader display-none"></h5>
+            <p id="productBody" class="productHeader display-none"></p>
           </div>
         </div>
       </div>
@@ -130,68 +139,108 @@
         class="container align-items-center text-center justify-content-between"
       >
         <h1 class="display-5">PORTFOLIO</h1>
+
         <div class="row d-sm-flex align-items-center justify-content-between">
-          <div class="col">
-            <img
-              class="img-fluid d-sm-block rounded"
-              src="assets/portfolio/work1.jpg"
-              alt="photo"
-            />
-          </div>
-          <div class="col">
-            <img
-              class="img-fluid d-sm-block rounded"
-              src="assets/portfolio/work2.jpg"
-              alt="photo"
-            />
-          </div>
 
-          <div class="col">
-            <img
-              class="img-fluid d-sm-block rounded"
-              src="assets/portfolio/work3.jpg"
-              alt="photo"
-            />
-          </div>
+          <div class="col parent" id="parent1">
 
-          <div class="col">
             <img
+              id="project1img"
               class="img-fluid d-sm-block rounded"
               src="assets/portfolio/work4.jpg"
               alt="photo"
             />
+            <p id="project1"></p>
           </div>
+
+
+          <div class="col">
+
+            <img class="img-fluid d-sm-block rounded" src="assets/portfolio/work3.jpg" alt="" />
+            <p> ONTARIO </p>
+          </div>
+
+
+<!-- 
+          <div class="col parent" id="parent2">
+            <img
+              id="project2img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work3.jpg"
+              alt="photo"
+            />
+            <p id="project2"></p>
+          </div> -->
+
+
+          <div class="col parent" id="parent3">
+            <img
+              id="project3img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work2.jpg"
+              alt="photo"
+            />
+            <p id="project3"></p>
+          </div>
+
+
+          <div class="col parent" id="parent4">
+            <img
+            id="project4img"
+              class="img-fluid d-sm-block rounded"
+              src="assets/portfolio/work1.jpg"
+              alt="photo"
+            />
+            <p id="project4"></p>
+          </div>
+
+          
+          
+
+        
         </div>
         <br />
         <div class="row d-sm-flex align-items-center justify-content-between">
-          <div class="col">
+          <div class="col parent" id="parent5">
             <img
+            id="project5img"
               class="img-fluid d-sm-block rounded"
               src="assets/portfolio/work5.jpg"
               alt="photo"
             />
+            <p id="project5"></p>
           </div>
 
-          <div class="col">
+          <div class="col parent" id="parent6">
             <img
+            id="project6img"
               class="img-fluid d-sm-block rounded"
               src="assets/portfolio/work6.jpg"
               alt="photo"
             />
+            <p id="project6"></p>
           </div>
-          <div class="col">
+
+
+          <div class="col parent" id="parent7">
             <img
+            id="project7img"
               class="img-fluid d-sm-block rounded"
               src="assets/portfolio/work7.jpg"
               alt="photo"
             />
+
+            <p id="project7"></p> 
           </div>
-          <div class="col">
+
+          <div class="col parent" id="parent8">
             <img
+            id="project8img"
               class="img-fluid d-sm-block rounded"
               src="assets/portfolio/work8.jpg"
               alt="photo"
             />
+            <p id="project8"></p> 
           </div>
         </div>
       </div>
@@ -299,6 +348,7 @@
         </div>
       </footer>
     </section>
+  
 
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
