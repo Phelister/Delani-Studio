@@ -16,12 +16,14 @@ var nameH= "GIRAFFE";
 var myName;
 var email;
 var message;
+var list;
 
 function submitClicked() {
 
    let list= $("#form").serializeArray();
+   console.log(list);
     let y = list.length;
-    for(let i=0; i<y;i++){
+    for(let i=0; i<y-1;i++){
         if(list[i].value==null || list[i].value.length==0){
             alert("Please fill in all the fields with details");
             return;
@@ -190,8 +192,8 @@ $(document).ready(function (){
 
      $("#form").submit(function (e){
         submitClicked();
+        console.log(list);
         e.preventDefault();
-
     });
 
 
