@@ -13,6 +13,24 @@ var nameE= "GOOD DAY";
 var nameF= "BUTTON";
 var nameG= "BURNED";
 var nameH= "GIRAFFE";
+var myName;
+var email;
+var message;
+
+function submitClicked() {
+
+   let list= $("#form").serializeArray();
+    let y = list.length;
+    for(let i=0; i<y;i++){
+        if(list[i].value==null || list[i].value.length==0){
+            alert("Please fill in all the fields with details");
+            return;
+        }
+    }
+    let output = list[0].value + " We have received your message. Thank you for reaching out to us.";
+    alert(output);
+
+}
 
 $(document).ready(function (){
 
@@ -170,6 +188,11 @@ $(document).ready(function (){
         $("#project8img").css({"opacity": "1"});
     });
 
+     $("#form").submit(function (e){
+        submitClicked();
+        e.preventDefault();
+
+    });
 
 
 });
