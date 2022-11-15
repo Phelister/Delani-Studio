@@ -17,7 +17,6 @@ var myName;
 var email;
 var message;
 var list;
-var count =0;
 
 function submitClicked() {
 
@@ -27,13 +26,12 @@ function submitClicked() {
     for(let i=0; i<y-1;i++){
         if(list[i].value==null || list[i].value.length==0){
             alert("Please fill in all the fields with details");
-            return;
+            return 0;
         }
     }
-    count+=1;
     let output = list[0].value + " We have received your message. Thank you for reaching out to us.";
     alert(output);
-    
+    return 1;
 
 }
 
@@ -194,10 +192,9 @@ $(document).ready(function (){
     });
 
      $("#form").submit(function (e){
-        submitClicked();
+        var y = submitClicked();
         console.log(list);
-        // $("#name").val()="";
-        if(count>0){
+        if(y>0){
         $('#form')[0].reset();
         }
         e.preventDefault();
