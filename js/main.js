@@ -17,6 +17,7 @@ var myName;
 var email;
 var message;
 var list;
+var count =0;
 
 function submitClicked() {
 
@@ -29,6 +30,7 @@ function submitClicked() {
             return;
         }
     }
+    count+=1;
     let output = list[0].value + " We have received your message. Thank you for reaching out to us.";
     alert(output);
     
@@ -195,7 +197,9 @@ $(document).ready(function (){
         submitClicked();
         console.log(list);
         // $("#name").val()="";
+        if(count>0){
         $('#form')[0].reset();
+        }
         e.preventDefault();
     });
 
