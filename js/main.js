@@ -31,6 +31,7 @@ function submitClicked() {
     }
     let output = list[0].value + " We have received your message. Thank you for reaching out to us.";
     alert(output);
+    // $("#name").val()="";
 
 }
 
@@ -193,6 +194,7 @@ $(document).ready(function (){
      $("#form").submit(function (e){
         submitClicked();
         console.log(list);
+        $('#form')[0].reset();
         e.preventDefault();
     });
 
